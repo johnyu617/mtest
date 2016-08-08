@@ -11,7 +11,7 @@ public void setCalcMethod (ICalcMethod calcMethod ){
 public void setPosition(Position position) {
     this.position = position;
 }
-
+//CommentTest1
 public double calc(){
     if(calcMethod==null){
         throw new RuntimeException("CalcMethod not defined");
