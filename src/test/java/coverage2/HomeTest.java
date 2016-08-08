@@ -11,5 +11,11 @@ public class HomeTest {
     public void testHome() {
         Home home = new Home("my home", "619");
 }
+    
+    @Test(groups={"function"})
+    public void testAddress2() {
+        Home home = new Home("my home", "619");
+        home.setAddress2("548");
+}
 
 }
