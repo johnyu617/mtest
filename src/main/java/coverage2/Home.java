@@ -54,6 +54,7 @@ public class Home {
         return state;
     }
     
+    //add comment
     public void setState(String state)
     {
     	this.state=state;
