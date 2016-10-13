@@ -5,8 +5,8 @@ import java.io.*;
 class FileOutputDemo 
 {   
 
- //   private FileOutputDemo(){    
- //   }
+    private FileOutputDemo(){    
+    }
     /**
      * this is the main method
      * @param args
@@ -31,7 +31,7 @@ class FileOutputDemo
                 }
                 catch (Exception e)
                 {
-                    //throw new RuntimeException(e);
+                    throw new RuntimeException(e);
                 }
         }
 }
