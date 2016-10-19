@@ -6,7 +6,7 @@ class FileOutputDemo
 {   
 
 
-        public static void main(String[] args)
+        public static void main(String[] args) throws IOException
         {              
                 FileOutputStream out; // declare a file output object
                 PrintStream p; // declare a print stream object
@@ -26,7 +26,7 @@ class FileOutputDemo
                 }
                 catch (Exception e)
                 {
-                    throw new RuntimeException(e);
+                    throw new IOException(e);
                 }
         }
 }
