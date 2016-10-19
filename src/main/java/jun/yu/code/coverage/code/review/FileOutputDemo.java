@@ -1,4 +1,4 @@
-package coverage2;
+package jun.yu.code.coverage.code.review;
 
 import java.io.*;
 
@@ -26,7 +26,7 @@ class FileOutputDemo
                 }
                 catch (Exception e)
                 {
-                    throw new IOException(e);
+                    //throw new IOException(e);
                 }
         }
 }
